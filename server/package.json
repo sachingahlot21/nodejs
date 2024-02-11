@@ -1,12 +1,15 @@
 {
-  "name": "helloworld",
+  "name": "server",
   "version": "1.0.0",
   "description": "",
-  "main": "hello.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start" :"node hello.js"
+    "start": "node index.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "url": "^0.11.3"
+  }
 }
