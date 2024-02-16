@@ -20,6 +20,8 @@ app.get('/users', (req, res) => {
 })
 
 app.get('/api/users', (req, res) => {
+    console.log(req.headers)
+    res.setHeader("X-Username" , "sachin gahlot")
     return res.json(users)
 })
 
